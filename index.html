@@ -10,16 +10,34 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     
     <body>
-  <section>
-
-    <!-- Create a two column layout for map information. -->
-    <a href="wind_turbines_8000.png">Full screen version</a>
-      
-      <h1>Density of Wind Turbines</h1>
-    <h2>Authored by: Lauren Karch under instruction of John Obrycki</h2>
-      
-       </section>
-
-</body>
+ <h1>Mapping Police Pursuits: Dear Statehouse, It&rsquo;s Leslie Again</h1>
+<blockquote>
+<p>Created by Lauren Karch under the instruction of John Obryki, University of Kentucky Department of Geography</p>
+</blockquote>
+<h2><strong>The Issue</strong></h2>
+<p>Between 2016 and 2020, police pursuits were involved in&nbsp;<a href="https://cdan.dot.gov/SASStoredProcess/guest">1,903</a>&nbsp;fatal motor vehicle crashes that killed 2,209 people. Despite an average death count of 442 people per year&mdash;including officers, suspects, and bystanders&mdash;data about police pursuits is scant. Statewide pursuit law is varied and often insubstantial, consigning high-risk-reward decisions to individual jurisdictions or, more often, individual officers. Ohio law, for example, requires only that law enforcement agencies maintain a pursuit policy&mdash;the state makes no recommendation regarding that policy&rsquo;s contents.</p>
+<p>Two maps created for this project relating to fatalities involving law enforcement vehicular pursuits: an overview map, and a suggestion on mapping future data.&nbsp;</p>
+<h2><strong>Mapping Fatal Chases</strong></h2>
+<p>The first map shows the coordinates of motor vehicle fatalities involving police pursuit from 2016 to 2020. This data comes from the&nbsp;<a href="https://cdan.dot.gov/query">National Highway Traffic Safety Administration&rsquo;s Fatality and Injury Reporting System Tool (FIRST).</a></p>
+<p>NHTSA defines a police pursuits as: &ldquo;an event that is initiated when a law enforcement officer, operating an authorized emergency vehicle, gives notice to stop (either through the use of visual or audible emergency signals or a combination of emergency devices) to a motorist who the officer is attempting to apprehend, and that motorist fails to comply with the signal by either maintaining his/her speed, increasing speed, or taking other evasive action to elude the officer&rsquo;s continued attempts to stop the motorist.&rdquo; NHTSA data is pulled from police reports.</p>
+<p>The national map was created in QGIS 3.22.5, and projected in North America Lambert Conformal Conic - ESRI:102009. A base map showing state boundaries was created using&nbsp;<a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html">Census TIGER data</a>. Information on states with the highest and lowest per-capita pursuit fatality rates uses&nbsp;<a href="https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-census-results.html">2020 Census data</a>&nbsp;to determine the population denominator.&nbsp;</p>
+<h2><strong>Suggestions for Mapping Pursuit Data</strong></h2>
+<p>In 2016, Ohio&rsquo;s governor and district attorney assembled a task force of legislators and law enforcement experts to advance recommendations regarding police pursuit policy.&nbsp;<a href="https://www.ohioattorneygeneral.gov/Files/Briefing-Room/News-Releases/Policy-and-Legislation/Vehicular-Pursuit/AGLEVP-Special-Report-November-2016-w-links.aspx">Its recommendations include a call for improved data collection</a>:</p>
+<p><em>&ldquo;Absent the requirement to forward reports of vehicle crashes to the Ohio Department of Transportation, there is no requirement of law enforcement agencies in the state to report all vehicle pursuits. There is also no central state database for agencies to voluntarily provide vehicle pursuit information. Accordingly, it is recommended that such a data collection site be initiated and maintained, and that collected data be analyzed to further develop best practices in this law enforcement activity.&rdquo;</em></p>
+<p>Since 2016, no such database has been developed.&nbsp;</p>
+<p>This recommendation may be difficult to implement, in part because of the nature of police pursuits in the state. Not only do police departments work together to continue chases, officers may travel beyond the bounds of their jurisdictions under mutual aid agreements. The NHTSA collects data on the location of fatal crashes, but no national or state agency compiles data on pursuit routes.</p>
+<p>The local map proposes a concept for illustrating police chases through mapping, using a single fatal chase as an example.</p>
+<p>On December 6, 2021, police in Solon, Ohio, pursued a Ford Fusion that has been reported stolen at gunpoint. According to a&nbsp;<a href="https://twitter.com/SolonPolice/status/1467932763454164996">press release</a>&nbsp;from the department, officers pursued the suspect northbound at high speeds through nearby Bentleyville and into Chagrin Falls before losing the car. According to a police report from Chagrin Falls, Chagrin Falls followed the Fusion for several blocks at non-pursuit speed, and contacted Solon police when it headed southbound toward Solon again. Solon officers deployed Stop Sticks near the point of the chase&rsquo;s origin. The driver of the Fusion, traveling at approximately 85 miles per hour, hit the Stop Sticks and crashed into two nearby vehicles. The crash injured two people and killed the 85-year-old passenger of one of the bystander vehicles.</p>
+<p>Ideally, a database regarding pursuit routes would include the following attributes:</p>
+<ul>
+<li>An incident ID referencing all units involved in a single incident</li>
+<li>Paths of police vehicles, including coordinates and distances</li>
+<li>Condition information, including time of day and weather</li>
+<li>Maximum and average speeds</li>
+<li>Suspect information, including potential charges and vehicle type</li>
+<li>Use of tire deflation devices</li>
+</ul>
+<p>This map was created in QGIS 3.22.5, and projected in NA83/ Ohio North, EPSG: 3734. The basemap uses&nbsp;<a href="https://www.openstreetmap.org/#map=18/40.03986/-84.20450">OpenStreetMap data</a>&nbsp;for roadways and&nbsp;<a href="https://catalog.data.gov/dataset/tiger-line-shapefile-2016-state-ohio-current-county-subdivision-state-based">Census TIGER data</a>&nbsp;for municipal boundaries. The location of the crash comes from NHTSA data, and pursuit routes are digitized from the Solon press release and the Chagrin Falls police report.&nbsp;</p>
+<p>&nbsp;</p>
 
 </html>
