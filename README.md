@@ -13,5 +13,5 @@ The national map was created in QGIS 3.22.5, and projected in North America Lamb
 
 The local map proposes a concept for illustrating police chases through mapping, using a single fatal chase as an example.
 
-This map was created in QGIS 3.22.5, and projected in NA83/ Ohio North, EPSG: 3734. The basemap uses [OpenStreetMap data](https://www.openstreetmap.org/#map=18/40.03986/-84.20450) for roadways and [Census TIGER data](https://catalog.data.gov/dataset/tiger-line-shapefile-2016-state-ohio-current-county-subdivision-state-based) for municipal boundaries. The location of the crash comes from NHTSA data, and pursuit routes are digitized from the Solon press release and the Chagrin Falls police report.
+This map was created in QGIS 3.22.5, and projected in NA83/ Ohio North, EPSG: 3734. The basemap uses [OpenStreetMap data](https://www.openstreetmap.org/#map=18/40.03986/-84.20450) for roadways and [Census TIGER data](https://catalog.data.gov/dataset/tiger-line-shapefile-2016-state-ohio-current-county-subdivision-state-based) for municipal boundaries. The location of the crash comes from NHTSA data, and pursuit routes are digitized from the Solon press release and the [Chagrin Falls police report](/Incident2100428.PDF).
  ![final poster](/poster8000.png)
