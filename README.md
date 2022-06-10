@@ -1,8 +1,6 @@
 # mapping-police-pursuits
 Final project for MAP 671 course. Maps traffic fatalities involving police pursuits from 2016-2020 and suggests mapping as a tool to further study pursuit-related fatalities.
 
-# Mapping Police Pursuits: Dear Statehouse, It&#39;s Leslie Again
-
 ## **The Issue**
 
 I&#39;ve created two maps for this project, both relating to fatalities involving law enforcement vehicular pursuits: an overview map, and a suggestion on mapping future data.
